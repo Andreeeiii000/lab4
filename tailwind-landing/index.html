@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Assistant Pro — Ваш умный помощник</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Навигация -->
+  <nav class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <a href="#" class="text-xl font-bold text-blue-600">AI Assistant Pro</a>
+      <button class="md:hidden text-gray-600 focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+      <ul class="hidden md:flex space-x-6">
+        <li><a href="#about" class="hover:text-blue-600">О продукте</a></li>
+        <li><a href="#features" class="hover:text-blue-600">Преимущества</a></li>
+        <li><a href="#footer" class="hover:text-blue-600">Тарифы</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Главная секция -->
+  <section class="bg-gradient-to-r from-blue-300 to-purple-400 text-white text-center py-40 px-48">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="text-4xl md:text-5xl font-bold mb-8">Ваш личный AI-помощник нового поколения</h1>
+      <p class="text-lg md:text-xl mb-8">
+        Экономьте время, автоматизируйте задачи и получайте мгновенные ответы с помощью AI Assistant Pro.
+      </p>
+      <a href="#" class="bg-white text-blue-700 font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-gray-100">
+        Попробовать бесплатно
+      </a>  
+    </div>
+  </section>
+
+  <!-- О продукте -->
+  <section id="about" class="py-16 px-18 text-center">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4">Что же такое AI Assistant Pro?</h2>
+      <p class="text-gray-700 text-lg">
+        AI Assistant Pro — это интеллектуальный помощник, созданный для повышения вашей продуктивности.
+        Он помогает в написании текстов, планировании задач, анализе данных и многом другом.
+        Работает быстро, надёжно и доступен на всех устройствах.
+      </p>
+    </div>
+  </section>
+
+  <!-- Преимущества -->
+  <section id="features" class="bg-gray-50 py-16 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-10">Преимущества продукта</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white border border-gray-200 rounded-lg shadow-sm p-6 text-center">
+          <h5 class="text-xl font-semibold mb-2">Мгновенные ответы</h5>
+          <p class="text-gray-700 mb-4">Получайте точные ответы за секунды. Экономьте время и усилия при решении задач.</p>
+          <a href="#" class="text-blue-600 border border-blue-600 hover:bg-blue-600 hover:text-white font-semibold py-2 px-4 rounded transition">
+            Подробнее
+          </a>
+        </div>
+
+        <div class="bg-white border border-gray-200 rounded-lg shadow-sm p-6 text-center">
+          <h5 class="text-xl font-semibold mb-2">Персонализация</h5>
+          <p class="text-gray-700 mb-4">AI Assistant Pro адаптируется под ваши привычки, задачи и стиль общения.</p>
+          <a href="#" class="text-blue-600 border border-blue-600 hover:bg-blue-600 hover:text-white font-semibold py-2 px-4 rounded transition">
+            Подробнее
+          </a>
+        </div>
+
+        <div class="bg-white border border-gray-200 rounded-lg shadow-sm p-6 text-center">
+          <h5 class="text-xl font-semibold mb-2">Доступность</h5>
+          <p class="text-gray-700 mb-4">Работает на ПК, смартфонах и планшетах. Ваш помощник всегда под рукой.</p>
+          <a href="#" class="text-blue-600 border border-blue-600 hover:bg-blue-600 hover:text-white font-semibold py-2 px-4 rounded transition">
+            Подробнее
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="py-20 bg-white">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-6">Тарифные планы</h2>
+    <p class="text-gray-600 mb-12">Выберите подходящий вариант и начните использовать AI Assistant Pro уже сегодня</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Бесплатный -->
+      <div class="border border-gray-200 rounded-xl shadow-sm p-8">
+        <h3 class="text-xl font-semibold mb-2">Free</h3>
+        <p class="text-gray-500 mb-4">Для ознакомления и базовых задач</p>
+        <p class="text-4xl font-bold mb-6">0₽<span class="text-base font-normal text-gray-500">/мес</span></p>
+        <ul class="text-gray-700 mb-6 space-y-2">
+          <li>+ 10 запросов в день</li>
+          <li>+ Основные функции</li>
+          <li>- Без персонализации</li>
+        </ul>
+        <a href="#" class="block border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold py-2 rounded-lg transition">Начать</a>
+      </div>
+
+      <!-- Стандарт -->
+      <div class="border border-gray-200 rounded-xl shadow-sm p-8">
+        <h3 class="text-xl font-semibold mb-2">Pro</h3>
+        <p class="text-gray-500 mb-4">Оптимальный выбор для активных пользователей</p>
+        <p class="text-4xl font-bold mb-6">499₽<span class="text-base font-normal text-gray-500">/мес</span></p>
+        <ul class="text-gray-700 mb-6 space-y-2">
+          <li>+ Безлимитные запросы</li>
+          <li>+ Персональные настройки</li>
+          <li>+ Приоритетная поддержка</li>
+        </ul>
+        <a href="#" class="block border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold py-2 rounded-lg transition">Выбрать</a>
+      </div>
+
+      <!-- Премиум -->
+      <div class="border border-gray-200 rounded-xl shadow-sm p-8">
+        <h3 class="text-xl font-semibold mb-2">Enterprise</h3>
+        <p class="text-gray-500 mb-4">Для бизнеса и команд</p>
+        <p class="text-4xl font-bold mb-6">999₽<span class="text-base font-normal text-gray-500">/мес</span></p>
+        <ul class="text-gray-700 mb-6 space-y-2">
+          <li>+ Все возможности Pro</li>
+          <li>+ Командный доступ</li>
+          <li>+ Персональный менеджер</li>
+        </ul>
+        <a href="#" class="block border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold py-2 rounded-lg transition">Связаться</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Футер -->
+  <footer id="footer" class="bg-white border-t border-gray-200 text-center py-6">
+    <p class="font-semibold mb-2">AI Assistant Pro © 2025</p>
+    <div class="space-x-4">
+      <a href="#" class="text-gray-600 hover:text-blue-600">Политика конфиденциальности</a>
+      <a href="#" class="text-gray-600 hover:text-blue-600">Поддержка</a>
+    </div>
+  </footer>
+
+
+</body>
+</html>
+
